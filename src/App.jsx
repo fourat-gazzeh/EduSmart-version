@@ -8,12 +8,15 @@ import Overview from "./components/pages/Overview"
 import Repports from "./components/pages/Repports"
 import Settings from "./components/pages/Settings"
 import Students from "./components/pages/Students"
-import SignUp from "./components/pages/SignUp"
+import SignUp from "./components/pages/Signin/SignUp"
+import Chatbot from './components/pages/Chatbot';
+import Reset from './components/pages/Signin/Reset';
+
 
 function App() {
  
   return (
-    <div className="container">
+    <div>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Overview/>} />
@@ -22,15 +25,17 @@ function App() {
         <Route path='/Notes' element={<Notes/>} />
         <Route path='/Analytics' element={<Analytics/>} />
         <Route path='/Message' element={<Message/>} />
+        <Route path='/Chatbot' element={<Chatbot/>} />
         <Route path='/Repports' element={<Repports/>} />
         <Route path='/Settings' element={<Settings/>} />
         <Route path='/Sign up' element={<SignUp/>} />
+        <Route path='/Reset' element={<Reset/>} />
         
         
       </Routes>
       
+      </BrowserRouter>
     
-    </BrowserRouter>
     </div>
     
   );

@@ -5,7 +5,7 @@ import Task from "../Todolist/Task"
 
 function Overview() {
   return (
-<div className="container">
+<div  className='container'>
   <aside>
     <div className="top">
       <div className="logo">
@@ -42,7 +42,7 @@ function Overview() {
         <h3>Message</h3>
         <span className="message-count">26</span>
       </Link>
-      <Link to="/Message" >
+      <Link to="/Chatbot" >
         <span className="material-icons-sharp">smart_toy</span>
         <h3>ChatBot</h3>
         
@@ -195,8 +195,8 @@ function Overview() {
   {/*----------END OF RECENTS UPDATES ------------*/}
 </div>
 
-        
-</div>
+</div> 
+
 
   )
 }

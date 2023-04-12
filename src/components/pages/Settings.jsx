@@ -4,6 +4,9 @@ import React from 'react'
 
 function Settings() {
   return (
+<div className='container'>
+
+
     <aside>
         <div className="top">
             <div className="logo">
@@ -37,6 +40,10 @@ function Settings() {
                 <h3>Message</h3>
                 <span className="message-count">26</span>
             </Link>
+            <Link to="/Chatbot" >
+            <span className="material-icons-sharp">smart_toy</span>
+            <h3>ChatBot</h3>
+            </Link>
             <Link to="/Repports">
                 <span className="material-icons-sharp">grid_view</span>
                 <h3>Repports</h3>
@@ -52,6 +59,7 @@ function Settings() {
             
         </div>
     </aside>
+</div>
   )
 }
 
