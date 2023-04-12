@@ -12,7 +12,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-left: 10px;
+ 
+}
+
+.container-chatbot {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  gap:  1.8rem;
+  grid-template-columns: 13rem 10rem;
 }
 
 #chat_container {
@@ -22,7 +30,7 @@
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  
 
   -ms-overflow-style: none;
   scrollbar-width: none;

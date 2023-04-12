@@ -67,13 +67,7 @@ body {
     gap:  1.8rem;
     grid-template-columns: 13rem 59rem 21rem;
 }
-.container-chatbot {
-    display: grid;
-    width: 100%;
-    margin: 0 auto;
-    gap:  1.8rem;
-    grid-template-columns: 13rem 10rem;
-}
+
 
 a {
     color: var(--color-dark);
