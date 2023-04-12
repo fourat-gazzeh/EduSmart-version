@@ -1,10 +1,16 @@
 import '../sidebar.css'
 import { Link } from 'react-router-dom'
 import React from 'react'
+import './Chatbot.css'
+
+
+
+const pic = new URL("./assets/send.png",import.meta.url)
 
 const Chatbot = () => {
   return (
-    <div className='container'>
+    <>
+    <div className='container-chatbot'>
     <aside>
         <div className="top">
             <div className="logo">
@@ -55,9 +61,28 @@ const Chatbot = () => {
                 <h3>Logout</h3>
             </Link>
             
-        </div>
+            </div>
     </aside>
+    <body>
+    <div id="app">
+    <div id="chat_container" />
+    <form className='form'>
+      <textarea className='textarea'
+        name="prompt"
+        rows={1}
+        cols={1}
+        placeholder="Ask codex..."
+        defaultValue={""}
+      />
+      <button className='button' type="submit">
+        <img className='img' src={pic} />
+      </button>
+    </form>
+  </div>
+  </body>
     </div>
+    
+  </>
   )
 }
 
