@@ -72,8 +72,8 @@ function Overview() {
         <span className="material-icons-sharp">analytics</span>
         <div className="middle">
           <div className="left">
-            <h3>Total sales</h3>
-            <h1>$25,33</h1>
+            <h3>Cours</h3>
+            <h1>Python</h1>
           </div>
           <div className="progress">
             <svg>
@@ -91,8 +91,8 @@ function Overview() {
         <span className="material-icons-sharp">bar_chart</span>
         <div className="middle">
           <div className="left">
-            <h3>Total expenses</h3>
-            <h1>$25,330</h1>
+            <h3>TP Progression</h3>
+            <h1>Compilation</h1>
           </div>
           <div className="progress">
             <svg>
@@ -110,8 +110,8 @@ function Overview() {
         <span className="material-icons-sharp">stacked_line_chart</span>
         <div className="middle">
           <div className="left">
-            <h3>Total income</h3>
-            <h1>$40,330</h1>
+            <h3>Homeworke</h3>
+            <h1>Quiz</h1>
           </div>
           <div className="progress">
             <svg>
